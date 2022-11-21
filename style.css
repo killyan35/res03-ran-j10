@@ -27,7 +27,7 @@ body > main > section > h2 {
     text-transform: uppercase;
     margin-top:0;
 }
-input[type='submit'] {
+input[type='button'] {
     background-color:#3a61ef ;
     color : #ffffff;
     text-align: center;
@@ -84,9 +84,19 @@ body > main > section:first-of-type > div:not(:last-child)  {
     display: grid;
     grid-template-columns: 1fr;
 }
-input[type='text'] {
+#btn1{
     background-color:#dfe4f7;
-    line-height:1.4em;
+    line-height:1.8em;
+    border:none;
+}
+#btn2 {
+    background-color:#dfe4f7;
+    line-height:1.8em;
+    border:none;
+}
+#btn3 {
+    background-color:#dfe4f7;
+    line-height:1.8em;
     border:none;
 }
 body > footer {
